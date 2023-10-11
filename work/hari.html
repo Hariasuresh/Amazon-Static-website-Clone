@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+
+    </table>
+    <br><br>
+    Name:<input type="text" name="name">
+    <br><br>
+<div>
+    Sex:<input type="radio" name="sex" id="Male" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="sex" id="Female" value="Female">
+    <label for="Female">Female</label>
+</div>
+<br><br>
+<div>
+    Country:
+    <select name="Country" id="Country"  >
+        <option >Select an option</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Ausralia">Ausralia</option>
+    </select>
+</div>
+<br><br>
+<label for="Message">Message:</label>
+<textarea id="message" name="message"></textarea>
+<br><br>
+<input type="checkbox" id="Subscribe" name="Subscribe" value="Subscribed">
+<label for="Subscribe">Subscribe?</label>
+<br><br>
+<button type="submit">Submit</button>
+<br><br>
+<h1>Feedback form</h1>
+<form action="form">
+    Name:<input type="text"  placeholder="Write your name">
+    <br><br>
+    Email:<input type="email" placeholder="Write your email">
+    <br><br>
+    <label for="Message">Message</label>
+    <textarea name="message" id="message"></textarea>
+    <br><br>
+    Rate us out of 5: <br>
+    <input type="radio" value="1" name="rating" id="1">
+    <label for="1">1</label><br>
+    <input type="radio" value="2" name="rating" id="2">
+    <label for="2">2</label><br>
+    <input type="radio" value="3" name="rating" id="3">
+    <label for="3">3</label><br>
+    <input type="radio" value="4" name="rating" id="4">
+    <label for="4">4</label><br>
+    <input type="radio" value="5" name="rating" id="5">
+    <label for="5">5</label><br>
+    <button type="submit">Send your message!</button>
+</form>    
+    </body>
+    
+</html>
